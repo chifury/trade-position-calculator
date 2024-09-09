@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import FirstBox from './components/FirstBox';
 import SecondBox from './components/SecondBox';
-import './App.css'; // For styling
+import './App.css'; // For styling purposes
 
 const defaultInstruments = [
   { instrument: 'EUR/USD', pipPointCalc: 10000, contractSize: 100000 },
