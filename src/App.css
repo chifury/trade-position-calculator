@@ -1,38 +1,75 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.app {
+  background-color: #333333;
+  color: #ffffff;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+
+.boxes-container {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;  /* Stack boxes vertically */
+}
+
+.box {
+  background-color: #444444;
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 600px;  /* Adjust this value if you want a specific max width */
+  box-sizing: border-box;  /* Ensure padding is included in the element's total width and height */
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+input, select {
+  background-color: #555555;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px;
+  width: calc(100% - 16px);  /* Full width minus the padding */
+  margin-bottom: 10px;
+  box-sizing: border-box;  /* Ensure padding is included in the element's total width and height */
+}
+
+.button {
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+p span {
+  font-weight: bold;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.bold-yellow {
+  color: yellow;
+  font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bold-blue {
+  color: orange;
+  font-weight: bold;
 }
