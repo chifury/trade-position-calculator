@@ -1,7 +1,7 @@
-#Trading Position Sizer (Built with React)
+# Trading Position Sizer (Built with React)
 ## An online tool that allows you to calculate the position size of your trade based on the % risk of your account size.
 
-# Getting Started with Create React App
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
