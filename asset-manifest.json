@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/trade-position-calculator/static/css/main.bbbae66b.css",
+    "main.css": "/trade-position-calculator/static/css/main.23afce9f.css",
     "main.js": "/trade-position-calculator/static/js/main.18911772.js",
     "index.html": "/trade-position-calculator/index.html",
-    "main.bbbae66b.css.map": "/trade-position-calculator/static/css/main.bbbae66b.css.map",
+    "main.23afce9f.css.map": "/trade-position-calculator/static/css/main.23afce9f.css.map",
     "main.18911772.js.map": "/trade-position-calculator/static/js/main.18911772.js.map"
   },
   "entrypoints": [
-    "static/css/main.bbbae66b.css",
+    "static/css/main.23afce9f.css",
     "static/js/main.18911772.js"
   ]
 }
